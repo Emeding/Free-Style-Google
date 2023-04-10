@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #202124;
+}
+
+/*?HEADER STYLING  */
+.main-container {
+  display: flex;
+  justify-content: right;
+  padding: 20px;
+}
+
+.nav > span {
+  color: white;
+  font-family: "roboto", "arial", "sans-serif";
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.gmail:hover,
+.image:hover {
+  text-decoration: underline;
+}
+
+span {
+  cursor: pointer;
+}
+
+.menu:hover {
+  background-color: rgb(87, 86, 86);
+  border-radius: 50px;
+}
+
+.menu {
+  padding: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.user {
+  padding: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #ccc;
+  border-radius: 50px;
+}
+
+/*!GOOGLE LOGO STYLING  */
+
+.logo > img {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/**INPUT PROPERTIES STYLING  */
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  border-radius: 40px;
+  border: 1px solid #dfe1e5;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #202124;
+  width: 600px;
+  outline: none;
+  padding-left: 50px;
+  color: white;
+  font-size: 14px;
+}
+
+.search {
+  position: absolute;
+  top: 22px;
+  left: 405px;
+}
+
+.mic {
+  position: absolute;
+  top: 20px;
+  left: 905px;
+}
+
+.cam {
+  position: absolute;
+  top: 20px;
+  left: 940px;
+}
+
+/*TODOBUTTON STYLING  */
+
+.btn > span {
+  padding: 10px;
+  background-color: #303134;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-family: "roboto", "arial", "sans-serif";
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 20px;
+  padding-top: 25px;
+}
+
+/*//LANG PROPERTIES STYLING  */
+
+.list {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 15px;
+  gap: 10px;
+}
+
+.list > span {
+  color: blue;
+  font-size: 14px;
+  font-family: "roboto", "arial", "sans-serif";
+}
+
+.list > .lang {
+  color: white;
+}
